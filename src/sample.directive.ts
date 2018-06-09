@@ -12,6 +12,7 @@ export class SampleDirective {
     renderer.setElementProperty(el.nativeElement, 'innerHTML', 'some new value');
  }
 
+ @HostListener('click')
   ngOnInit2() {
     const el = this.el.nativeElement;
             // const arrow = document.getElementsByClassName('.container-fluid');
