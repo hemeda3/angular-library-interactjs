@@ -6,7 +6,7 @@ import { NgModule } from '@angular/core';
 import { Component } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { SampleModule }  from '@angular/angular-library-interactjs';
+import { SampleModule }  from 'angular-library-interactjs';
 
 @Component({
   selector: 'app',

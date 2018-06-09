@@ -1,11 +1,11 @@
-# @angular/angular-library-interactjs
+#angular-library-interactjs
 
 ## Installation
 
 To install this library, run:
 
 ```bash
-$ npm install @angular/angular-library-interactjs --save
+$ npm install angular-library-interactjs --save
 ```
 
 ## Consuming your library
@@ -13,7 +13,7 @@ $ npm install @angular/angular-library-interactjs --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install @angular/angular-library-interactjs
+$ npm install angular-library-interactjs
 ```
 
 and then from your Angular `AppModule`:
@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from '@angular/angular-library-interactjs';
+import { SampleModule } from angular-library-interactjs';
 
 @NgModule({
   declarations: [

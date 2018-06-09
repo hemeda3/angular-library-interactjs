@@ -23,7 +23,7 @@
     "strictMetadataEmit": false,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "angular-library-interactjs.js",
-    "flatModuleId": "@angular/angular-library-interactjs"
+    "flatModuleId": "angular-library-interactjs"
   },
   "files": [
     "./index.ts"
