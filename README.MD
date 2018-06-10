@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from angular-library-interactjs';
+import { ng2Move } from angular-library-interactjs';
 
 @NgModule({
   declarations: [
@@ -33,9 +33,9 @@ import { SampleModule } from angular-library-interactjs';
   ],
   imports: [
     BrowserModule,
-
+  
     // Specify your library as an import
-    LibraryModule
+    InteractJSModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -43,14 +43,14 @@ import { SampleModule } from angular-library-interactjs';
 export class AppModule { }
 ```
 
-Once your library is imported, you can use its components, directives and pipes in your Angular application:
+Once your library is imported, you can use Ng2Move directive in your Angular application:
 
 ```xml
 <!-- You can now use your library component in app.component.html -->
-<h1>
-  {{title}}
-</h1>
-<sampleComponent></sampleComponent>
+ 
+       <div   Ng2Move >
+       </div>
+
 ```
 
 ## Development
