@@ -4,9 +4,9 @@ let interacter: any = (<any>interacter_).default || interacter_;
 import { Directive, ElementRef, HostListener, Input, Renderer } from '@angular/core';
 
 @Directive({
-selector: '[sampleDirective]'
+selector: '[ng2Move]'
 })
-export class SampleDirective {
+export class Ng2Move {
 
 constructor(private el: ElementRef, renderer: Renderer) {
   renderer.setElementProperty(el.nativeElement, 'innerHTML', 'some new vdddalue');
@@ -18,7 +18,7 @@ ngOnInit2() {
   const el = this.el.nativeElement;
           // const arrow = document.getElementsByClassName('.container-fluid');
 
-      // target elements with the 'draggable' class
+      // target elements  with the 'draggable' class
       interacter(el)
 
         .draggable({
