@@ -9,7 +9,7 @@ selector: '[ng2Move]'
 export class Ng2Move {
 
 constructor(private el: ElementRef, renderer: Renderer) {
-  renderer.setElementProperty(el.nativeElement, 'innerHTML', 'some new vdddalue');
+ // renderer.setElementProperty(el.nativeElement, 'innerHTML', 'some new vdddalue');
 }
 
 @HostListener('dragstart')
@@ -39,8 +39,7 @@ ngOnInit2() {
           // call this function on every dragend event
         });
     }
-   
-    
+ 
     dragMoveListener(event) {
       const target = event.target,
         // keep the dragged position in the data-x/data-y attributes
